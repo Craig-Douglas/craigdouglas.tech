@@ -1,0 +1,2 @@
+# craigdouglas.tech
+personal website
