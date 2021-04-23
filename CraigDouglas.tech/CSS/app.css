@@ -11,11 +11,25 @@
 
 
 
+.site_links {
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.site_links:hover {
+  color: White;
+
+}
+
+.site_links:visited {
+  text-emphasis: none;
+}
 
 
 
 
-* Define theme variables before importing any MDC Web component styles */
+
 
 :root {
   --mdc-theme-primary: var(--black);
@@ -51,7 +65,7 @@ a {
   text-decoration: none;
 }
 
-/* // Reset List Styles */
+
 .navList {
   list-style: none;
   height: 32px;
@@ -195,6 +209,35 @@ a {
   width: 300px;
 }
 
+.grounduplogo {
+  left: 25%;
+  top: 20%;
+  position: absolute;   
+  color: rgb(0, 0, 0);
+  opacity: 1;
+  height: 290px;
+  width: 290px;
+}
+
+.spannerlogo {
+  left: 35%;
+  top: 30%;
+  position: absolute;   
+  color: rgb(0, 0, 0);
+  opacity: 1;
+  height: 150px;
+  width: 150px;
+}
+
+.dostufflogo {
+  left: 38%;
+  top: 33%;
+  position: absolute;   
+  color: rgb(0, 0, 0);
+  opacity: 1;
+  height: 150px;
+  width: 150px;
+}
 
 /* // Image List */
 .imageList {
@@ -270,6 +313,12 @@ img {
   border-radius: 5px;
 }
 
+.github_logo{
+  height:50px;
+  width:50px;
+  margin-bottom: 5px;
+}
+
 /* // About Page */
 .aboutMe {
   display: flex;
@@ -303,8 +352,19 @@ img {
   flex: 1;
 }
 
+#white_head {
+  color: var(--headingwhite);
+  padding: 70px;
+}
+
 #hiCraig {
   color: var(--headingwhite);
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#webtitle {
+  color:#0e0e0e;
   font-size: 22px;
   font-weight: bold;
 }
@@ -324,21 +384,23 @@ img {
 #github_link {
   color:white;
   padding-right: 10px;
+  text-decoration: none;
+  font-size: 24px;
   }
 
 #github_link img {
   vertical-align: middle;
+  align-items: center;
   height: 30px;
-  width: 30px;
+  width: 36px;
   padding-right: 10px;
-
 }
 
 #github_link:hover, img:hover {
   color:#0e0e0e;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 667px) {
   .mdc-top-app-bar__title {
     display: block;
   }
@@ -412,7 +474,7 @@ li:hover {
   }
   
   .wplogo {
-    left: 10%;
+    left: 12%;
     top: 30%;
     position: absolute;   
     color: rgb(0, 0, 0);
@@ -422,7 +484,7 @@ li:hover {
   }
   
   .daytona {
-    left: 28%;
+    left: 25%;
     top: 24%;
     position: absolute;   
     color: rgb(0, 0, 0);
@@ -431,8 +493,295 @@ li:hover {
     width: 200px;
   }
 
+  .grounduplogo {
+    left: 20%;
+    top: 12%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 200px;
+    width: 200px;
+  }
+  
+  .spannerlogo {
+    left: 38%;
+    top: 25%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 100px;
+    width: 100px;
+  }
+
+  .dostufflogo {
+    left: 38%;
+    top: 33%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 150px;
+    width: 150px;
+  }
+
   #github_link img{
   height: 100px;
   }
+
+  #aboutpara {
+    padding: 2px 6px 2px 8px;
+    margin: 0;
+  }
+
+
+}
+
+
+@media (min-width: 667px){
+
+
+  .hoverimage{
+    left: 35%;
+    top: 42%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 150px;
+    width: 150px;
+  }
+  
+  .coffeelogo {
+    left: 38%;
+    top: 30%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 123px;
+    width: 100px;
+  }
+  
+  .wplogo {
+    left: 30%;
+    top: 32%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 300px;
+    width: 300px;
+  }
+  
+  .daytona {
+    left: 26%;
+    top: 30%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 200px;
+    width: 200px;
+  }
+
+  .grounduplogo {
+    left: 27%;
+    top: 22%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 350px;
+    width: 350px;
+  }
+
+  .dostufflogo {
+    left: 38%;
+    top: 33%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 200px;
+    width: 200px;
+  }
+
+  .coffeelogo {
+    left: 38%;
+    top: 30%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 200px;
+    width: 300px;
+  }
+  
+
+}
+
+@media (min-width: 667px) {
+
+  .daytona {
+    left: 33%;
+    top: 33%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 200px;
+    width: 200px;
+  }
+
+}
+
+@media (min-width: 667px) {
+
+
+  .hoverimage{
+    left: 34%;
+    top: 40%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 260px;
+    width: 260px;
+  }
+  
+  .coffeelogo {
+    left: 35%;
+    top: 24%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 172px;
+    width: 185px;
+  }
+  
+  .wplogo {
+    left: 12%;
+    top: 32%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 450px;
+    width: 450px;
+  }
+  
+  .daytona {
+    left: 20%;
+    top: 20%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 360px;
+    width: 360px;
+  }
+
+  .dostufflogo {
+    left: 38%;
+    top: 28%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 200px;
+    width: 200px;
+  }
+
+  .grounduplogo {
+    left: 22%;
+    top: 18%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 350px;
+    width: 350px;
+  }
+
+
+}
+
+@media (max-width: 375px)   {
+
+  .daytona {
+    left: 24%;
+    top: 16%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 150px;
+    width: 150px;
+  }
+
+  .hoverimage{
+    left: 32%;
+    top: 26%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 120px;
+    width: 120px;
+  }
+  
+  .coffeelogo {
+    left: 33%;
+    top: 20%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 76px;
+    width: 80px;
+  }
+  
+  .wplogo {
+    left: 22%;
+    top: 26%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 150px;
+    width: 150px;
+  }
+
+
+
+
+}
+
+
+@media (max-width: 428px)   {
+
+  .daytona {
+    left: 24%;
+    top: 16%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 150px;
+    width: 150px;
+  }
+
+  .hoverimage{
+    left: 32%;
+    top: 26%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 120px;
+    width: 120px;
+  }
+  
+  .coffeelogo {
+    left: 33%;
+    top: 20%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 76px;
+    width: 80px;
+  }
+  
+  .wplogo {
+    left: 22%;
+    top: 26%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 150px;
+    width: 150px;
+  }
+
+
 
 }
